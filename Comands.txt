@@ -1,0 +1,18 @@
+composer require laravel/ui
+
+php artisan ui:auth
+
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+
+npm install
+npm run dev
+
+php artisan make:model Questionnarie -m
+php artisan make:controller QuestionarieController
+
+php artisan make:model Question -m
+php artisan make:model Answer -m
+
+
+php artisan make:controller QuestionController
